@@ -10,6 +10,8 @@
         <module name="eureka_client_1" />
         <module name="eureka_client_2" />
         <module name="eureka_server" />
+        <module name="feign" />
+        <module name="hystrix" />
         <module name="ribbon" />
       </profile>
     </annotationProcessing>
@@ -19,6 +21,8 @@
       <module name="eureka_client_1" options="-parameters" />
       <module name="eureka_client_2" options="-parameters" />
       <module name="eureka_server" options="-parameters" />
+      <module name="feign" options="-parameters" />
+      <module name="hystrix" options="-parameters" />
       <module name="ribbon" options="-parameters" />
     </option>
   </component>
